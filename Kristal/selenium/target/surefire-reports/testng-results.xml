@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Driver Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to google.com]]>
+    </line>
+    <line>
+      <![CDATA[search box is available]]>
+    </line>
+    <line>
+      <![CDATA[autosuggestions are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Driver Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to google.com]]>
+    </line>
+    <line>
+      <![CDATA[Searched tesla]]>
+    </line>
+    <line>
+      <![CDATA[verified result count]]>
+    </line>
+    <line>
+      <![CDATA[landed on tesla site]]>
+    </line>
+    <line>
+      <![CDATA[Driver Launched]]>
+    </line>
+    <line>
+      <![CDATA[searched content]]>
+    </line>
+    <line>
+      <![CDATA[pagination is available]]>
+    </line>
+    <line>
+      <![CDATA[Driver Launched]]>
+    </line>
+    <line>
+      <![CDATA[searched content]]>
+    </line>
+    <line>
+      <![CDATA[Language is changed to dutch]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-27T16:08:00 IST" name="All Test Suite" finished-at="2021-03-27T16:08:18 IST" duration-ms="18214">
+    <groups>
+    </groups>
+    <test started-at="2021-03-27T16:08:00 IST" name="/Users/cb-vinayak/work/selenium/src/test/java/GoogleSearch.java" finished-at="2021-03-27T16:08:18 IST" duration-ms="18214">
+      <class name="GoogleSearch">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:00 IST" name="setUp" finished-at="2021-03-27T16:08:00 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomeSearchPage()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:00 IST" name="verifyHomeSearchPage" description="Navigation to google.com" finished-at="2021-03-27T16:08:03 IST" duration-ms="2999" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to google.com]]>
+            </line>
+            <line>
+              <![CDATA[search box is available]]>
+            </line>
+            <line>
+              <![CDATA[autosuggestions are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomeSearchPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:03 IST" name="closeDriver" finished-at="2021-03-27T16:08:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:03 IST" name="setUp" finished-at="2021-03-27T16:08:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchingContent()[pri:1, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:03 IST" name="verifySearchingContent" description="Verify search result" finished-at="2021-03-27T16:08:07 IST" duration-ms="4286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to google.com]]>
+            </line>
+            <line>
+              <![CDATA[Searched tesla]]>
+            </line>
+            <line>
+              <![CDATA[verified result count]]>
+            </line>
+            <line>
+              <![CDATA[landed on tesla site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchingContent -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:07 IST" name="closeDriver" finished-at="2021-03-27T16:08:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:07 IST" name="setUp" finished-at="2021-03-27T16:08:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaginationCheck()[pri:2, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:07 IST" name="verifyPaginationCheck" description="Verify pagination" finished-at="2021-03-27T16:08:12 IST" duration-ms="5453" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searched content]]>
+            </line>
+            <line>
+              <![CDATA[pagination is available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationCheck -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:12 IST" name="setUp" finished-at="2021-03-27T16:08:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:12 IST" name="closeDriver" finished-at="2021-03-27T16:08:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method signature="verifyLanguageChange()[pri:3, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:12 IST" name="verifyLanguageChange" description="Verify language change option" finished-at="2021-03-27T16:08:18 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searched content]]>
+            </line>
+            <line>
+              <![CDATA[Language is changed to dutch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageChange -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:GoogleSearch@81ff872]" started-at="2021-03-27T16:08:18 IST" name="closeDriver" finished-at="2021-03-27T16:08:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- GoogleSearch -->
+    </test> <!-- /Users/cb-vinayak/work/selenium/src/test/java/GoogleSearch.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
